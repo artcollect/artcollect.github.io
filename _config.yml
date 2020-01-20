@@ -1,0 +1,54 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: collect
+email: collect@outlook.com
+author: "xycollect"
+logo: "./apple-touch-icon.png"
+lang: "zh-cmn-Hans"
+# description: "question came and went, like a helicopter over head..."
+description: "with great power comes great explosion"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://xycllect.top" # the base hostname & protocol for your site
+# twitter_username: jekyllrb
+# github_username:  jekyll
+timezone: Asia/Shanghai
+encoding: UTF-8
+
+social:
+  name: art-collect
+  links:
+    - https://twitter.com/art-collect
+
+#webmaster_verifications:
+#  google: "FXBCg8JJZhpiTTJFHOpZMzP6I1pTetBhPpHMsE-Lvj0"
+
+#tracking:
+#  ga_id: "UA-101491967-2"
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins_dir:
+#  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+permalink: /blog/:title
+
+# paginate: 10
+# paginate_path: "/page:num/"
+#
+#
+# gems: [jekyll-paginate]
